@@ -69,9 +69,5 @@ function resetuj()
     document.getElementById("prezime").value="";
     document.getElementById("email").value="";
     document.getElementById("textPolje").value="";
-    document.getElementById("textPoruka").style.visibility="hidden";
-    document.getElementById("emailPoruka").style.visibility="hidden";
-    document.getElementById("prezimePoruka").style.visibility="hidden";
-     document.getElementById("imePoruka").style.visibility="hidden";
 
 }
