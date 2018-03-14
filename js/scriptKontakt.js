@@ -49,15 +49,7 @@ function provera(){
        document.getElementById("emailPoruka").style.visibility="hidden";
        document.getElementById("email").style.border="1px solid green";
     }
-    if(textPolje.length==0)
-    {
-        greske.push("textPolje");
-        document.getElementById("textPoruka").style.visibility="visible";
-    }
-    else
-    {
-       document.getElementById("textPoruka").style.visibility="hidden";
-    }
+    
     if(greske.length==0)
     {
         alert("Vasa poruka je uspesno poslata!");
