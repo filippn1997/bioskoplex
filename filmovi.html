@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> BioskoPlex </title>
+	<meta charset="utf-8"/>
+	<meta name="keyword" content="filmovi,animirani,komedija,akcija"/>
+	<meta name="author" content="mailto:filip.petrovic.9.16@ict.edu.rs"/>
+	<meta name="description" content="" />	
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<div id="header">
+		<div id="meni">
+				<div id="meni-levo">
+						<a href="index.html"><img src="slike/logo.png" alt="logo"/></a>
+					</div>
+			<div id="meni-desno">
+				<ul>
+					<li><a href="index.html">Naslovna</a></li>
+					<li><a href="filmovi.html">Filmovi</a></li>
+					<li><a href="galerija.html">Galerija</a></li>
+					<li>
+						<a href="#">O nama</a>
+						<ul>
+                            <li><a href="autor.html">Autor</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+					</li>
+					<!--<li><img src="slike/pretraziIcon.png"/></li>-->
+
+				</ul>
+
+			</div>
+			
+			<div class="cleaner"></div>
+		</div>
+	</div>
+	<div id="okvir">
+		<div id="filmoviFilmovi">
+            <div id="listaFilmova">
+                <div id="alati">
+                    <div class="alati1">
+                        <h1>Sortiraj :</h1>
+                     <table >
+                         <tr>
+                             <td>Po Imenu:</td>
+                             <td>
+                                <select id="ddlAZ">
+                                    <option value="0">Izaberite...</option>
+                                    <option value="1">A-Z</option>
+                                    <option value="2">Z-A</option>
+                                </select>
+                                
+                             </td>
+                         </tr>
+                         <tr>
+                            <td>Po IMDB oceni:</td>
+                            <td>
+                                <select id="ddl19">
+                                    <option value="0">Izaberite...</option>
+                                    <option value="1">Rastuce</option>
+                                    <option value="2">Opadajuce</option>
+                                </select>
+                                   
+                            </td>
+                         </tr>
+                     </table>
+
+                </div>
+                <div class="alati1">
+                        <h1>Filtriraj:</h1>
+                        <table >
+                            <tr>
+                                <td>Zanr:</td>
+                                <td>
+                                   <select id = "zanr">
+                                       <option value="0">Izaberite...</option>
+                                       <option value="Animirani">Animirani</option>
+                                       <option value="Komedija">Komedija</option>
+                                       <option value="Porodicni">Porodicni</option>
+                                       <option value="Krimi">Krimi</option>
+                                       <option value="Drama">Drama</option>
+                                       <option value="Misterija">Misterija</option>
+                                       <option value="Akcija">Akcija</option>
+                                       <option value="Avantura">Avantura</option>
+                                       <option value="Naucna-fantastika">Naucna-fantastika</option>
+                                       <option value="Horor">Horor</option>
+                                       <option value="Triler">Triler</option>
+                                       <option value="Fantazija">Fantazija</option>
+                                       <option value="Istorijski">Istorijski</option>
+                                   </select>
+                                   
+                                </td>
+                                
+                            </tr>
+                            <tr><td></td><td><input type="button" id="btnPretrazi" value="Pretrazi" /></td></tr>
+                            
+                        </table>
+                </div>
+                <div class="alati1">
+                        <h1>Promeni prikaz:</h1>
+                        <table >
+                            <tr>
+                                <td><input type="button" id="1" value="Detaljan opis" class="prikaz aktiv" />
+                                    <input type="button" id="2" value="Pregled postera" class="prikaz" /></td>
+                                
+                            </tr>
+                            
+                        </table>
+                </div>
+                
+				<div class="cleaner"></div>
+                    
+                </div>
+                <div id="naslovFilm"><h1>FILMOVI</h1></div>
+                <div id="ispisFilmova">
+                    
+                </div>
+
+            </div>
+
+        </div>
+	
+		<div id="bottom">
+			<div id="footer">
+				<div class="footerClass">
+					<ul>
+						<li>Vojvode Mišića 3 <br/>Paraćin 35250</li>
+						
+						<li>Radnim danima: 09-23h</li>
+						
+						<li><a href="mailto:filip.petrovic.9.16@ict.edu.rs">filip.petrovic.9.16@ict.edu.rs</a></li>
+					</ul>
+				</div>
+				<div class="footerClass">
+					<ul>
+						<li><a href="filmovi.html">Filmovi</a></li>
+						<li><a href="galerija.html">Galerija</a></li>
+						<li><a href="autor.html">Autor</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="dokumentacija.pdf">DOKUMENTACIJA</a></li>
+					</ul>
+				</div>
+				<div class="footerClass">
+						<ul>
+							<li><h3>Pratite nas!</h3></li>
+							<li><a href="http://www.facebook.com">Facebook</a></li>
+							<li><a href="http://www.instagram">Instagram</a></li>
+							<li><a href="http://www.youtube.com">Youtube</a></li>
+						</ul>
+					</div>
+				
+				<div class="cleaner"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/scriptFilmoviFilmovi.js"></script>
+<script type="text/javascript" src="js/scriptMeni.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> BioskoPlex </title>
+	<meta charset="utf-8"/>
+	<meta name="keyword" content="filmovi, 3d, tehnologija,projekcija,zvucne"/>
+	<meta name="author" content="mailto:filip.petrovic.9.16@ict.edu.rs"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<div id="header">
+		<div id="meni">
+				<div id="meni-levo">
+						<a href="index.html"><img src="slike/logo.png" alt="logo"/></a>
+					</div>
+			<div id="meni-desno">
+				<ul>
+					<li><a href="index.html">Naslovna</a></li>
+					<li><a href="filmovi.html">Filmovi</a></li>
+					<li><a href="galerija.html">Galerija</a></li>
+					<li>
+						<a href="#">O nama</a>
+						<ul>
+							<li><a href="autor.html">Autor</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+						</ul>
+					</li>
+					<!--<li><img src="slike/pretraziIcon.png"/></li>-->
+
+				</ul>
+
+			</div>
+			
+			<div class="cleaner"></div>
+		</div>
+	</div>
+	<div id="okvir">
+		<div id="slider">
+				<div id="sliderPozadina">
+					<div id="sliderFront">
+						<div class="slajd">
+							<div> <img src="slike/slika1.jpg" alt="slajderSlika"/></div>
+							<div class="naslov" >
+									<h1>3D tehnologija sada i u nasem bioskopu!</h1>
+								<a href="#vesti" class="link" >Saznaj vise</a>
+						</div>
+						</div>
+						<div class="slajd">
+								<div> <img src="slike/slika2.jpg" alt="slajderSlika"/></div>
+								<div class="naslov">
+										<h1>Festival najbolje fotografije!</h1>
+									<a href="#vesti" class="link" >Saznaj vise</a>
+								</div>
+						</div>
+						<div class="slajd">
+								<div> <img src="slike/slika3.jpg" alt="slajderSlika"/></div>
+								<div class="naslov">
+										<h1>Najbolji kvalitet slike!</h1>
+									<a href="#vesti" class="link" >Saznaj vise</a>
+								</div>
+						</div>
+						<div class="slajd">
+								<div> <img src="slike/slika4.jpg" alt="slajderSlika"/></div>
+								<div class="naslov">
+										<h1>Projekcije starih domacih filmova!</h1>
+									<a href="#vesti" class="link" >Saznaj vise</a>
+								</div>
+						</div>
+						<div class="slajd">
+								<div> <img src="slike/slika5.jpg" alt="slajderSlika"/></div>
+								<div class="naslov">
+										<h1>Najbolji zvucni sistemi</h1>
+									<a href="#vesti" class="link">Saznaj vise</a>
+								</div>
+						</div>
+
+					</div>								
+					<a id="nazad" href="#"><img src="slike/manjeod.png" class="slicica" alt="strelica1"/></a>
+					<a id="napred" href="#"><img src="slike/veceod.png" class="slicica" alt="strelica2"/></a>
+						
+					<div id="tacke">
+						<div id="slika1" data-vrednost="0" class="tacka"><img src="slike/slika1.jpg" alt="slajderSlika"/></div>
+						<div id="slika2" data-vrednost="1" class="tacka"><img src="slike/slika2.jpg" alt="slajderSlika"/></div>
+						<div id="slika3" data-vrednost="2" class="tacka"><img src="slike/slika3.jpg" alt="slajderSlika"/></div>
+						<div id="slika4" data-vrednost="3" class="tacka"><img src="slike/slika4.jpg" alt="slajderSlika"/></div>
+						<div id="slika5" data-vrednost="4" class="tacka"><img src="slike/slika5.jpg" alt="slajderSlika"/></div>
+					</div>
+				</div>
+		</div>
+						
+		
+		<div id="centar">
+			<div id="sredina">
+				<div id="filter">
+				
+					<div class="filtriranje  aktiv" data-klik="uskoro"><p>Uskoro</p></div>
+					<div class="filtriranje" data-klik="aktuelno"><p>Aktuelno</p></div>
+					<div class="cleaner"></div>
+				
+				</div>
+				<div id="filmovi">
+					<!--<div class="film">
+						<div class="slika"> <img src="slike/cars1.jpg" alt="cars1"/></div>
+						<div class="nazivFilma">
+							<table>
+								<tr>
+									<td>Naziv: </td>
+									<td>Cars</td>
+								</tr>
+								<tr>
+									<td>Imdb: </td>
+									<td>ocena</td>
+								</tr>
+								<tr>
+									<td>Zanr: </td>
+									<td>Zanrpvo</td>
+								</tr>
+							</table>
+						</div>
+						
+					</div>-->
+					
+								
+					<!-- dinamicki se ispisuju -->
+				</div>
+				
+				
+			
+			</div>
+			<div id="vesti">
+				<div class="naslovVest">
+					<h2>Vesti</h2>
+				</div>
+				<div id="drzac-vest">
+					<div class="drzacVest" >
+						
+					</div>
+					<div class="drzacVest" >
+						
+					</div>
+					
+					<div class="cleaner"></div>
+				</div>
+			</div>
+		</div>
+		<div id="bottom">
+			<div id="footer">
+				<div class="footerClass">
+					<ul>
+						<li>Vojvode Mišića 3 <br/>Paraćin 35250</li>
+						
+						<li>Radnim danima: 09-23h</li>
+						
+						<li><a href="mailto:filip.petrovic.9.16@ict.edu.rs">filip.petrovic.9.16@ict.edu.rs</a></li>
+					</ul>
+					
+				</div>
+				<div class="footerClass">
+					<ul>
+						<li><a href="filmovi.html">Filmovi</a></li>
+						<li><a href="galerija.html">Galerija</a></li>
+						<li><a href="autor.html">Autor</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="dokumentacija.pdf">DOKUMENTACIJA</a></li>
+					</ul>
+				</div>
+				<div class="footerClass">
+						<ul>
+							<li><h3>Pratite nas!</h3></li>
+							<li><a href="http://www.facebook.com">Facebook</a></li>
+							<li><a href="http://www.instagram">Instagram</a></li>
+							<li><a href="http://www.youtube.com">Youtube</a></li>
+						</ul>
+					</div>
+				
+				<div class="cleaner"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/scriptMeni.js"></script>
+<script type="text/javascript" src="js/scriptFilmoviIndex.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> BioskoPlex </title>
+	<meta charset="utf-8"/>
+	<meta name="keyword" content=""/>
+	<meta name="author" content="mailto:filip.petrovic.9.16@ict.edu.rs"/>
+	<meta name="description" content="" />	
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"/>
+</head>
+<body>
+	<div id="header">
+		<div id="meni">
+				<div id="meni-levo">
+						<a href="index.html"><img src="slike/logo.png" alt="logo"/></a>
+					</div>
+			<div id="meni-desno">
+				<ul>
+					<li><a href="index.html">Naslovna</a></li>
+					<li><a href="filmovi.html">Filmovi</a></li>
+					<li><a href="galerija.html">Galerija</a></li>
+					<li>
+						<a href="#">O nama</a>
+						<ul>
+                            <li><a href="autor.html">Autor</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+					</li>
+					<!--<li><img src="slike/pretraziIcon.png"/></li>-->
+
+				</ul>
+
+			</div>
+			
+			<div class="cleaner"></div>
+		</div>
+	</div>
+	<div id="okvir">
+        <div id="kontakt">
+            <div id="kontaktForma">
+				<div id="naslovFilm"><h1>Kontakt</h1></div>
+				<div id="forma">
+					<form>
+						<table>
+							<tr><td>Ime</td></tr>
+							<tr>
+								<td><input type="text" id="ime" class="input" placeholder="Vase ime..."/></td>
+								
+							</tr>
+							<tr>
+									<td id="imePoruka" class="sakri">Ime nije dobro uneto</td>
+							</tr>
+							<tr><td>Prezime</td></tr>
+							<tr>
+								<td><input type="text" id="prezime" placeholder="Vase prezime..." class="input"/></td>
+							</tr>
+							<tr>
+									<td id="prezimePoruka" class="sakri">Prezime nije dobro uneto</td></tr>
+							<tr><td>Email</td></tr>
+							<tr>
+								<td><input type="text" placeholder="Vas email..." id="email" class="input"/></td>
+								
+							</tr>
+							<tr>
+									<td id="emailPoruka" class="sakri">Email nije dobro unet!</td>
+							</tr>
+							<tr><td>Poruka</td></tr>
+							<tr>
+								<td><textarea id="textPolje" rows="10"  cols="50">                             
+									</textarea></td>
+								
+							</tr>
+							<tr>
+									<td id="textPoruka" class="sakri">Text polje ne sme biti prazno</td>
+							</tr>
+							<tr>
+									<td><input type="button" id="submit" value="Posalji" class="button"/><input type="button" id="reset" value="Resetuj" class="button"/></td>
+									
+								</tr>
+						</table>
+
+					</form>
+				</div>
+                
+            </div>
+        
+        		
+		</div>
+		<div id="bottom">
+			<div id="footer">
+				<div class="footerClass">
+					<ul>
+						<li>Vojvode Mišića 3 <br/>Paraćin 35250</li>
+						
+						<li>Radnim danima: 09-23h</li>
+						
+						<li><a href="mailto:filip.petrovic.9.16@ict.edu.rs">filip.petrovic.9.16@ict.edu.rs</a></li>
+					</ul>
+				</div>
+				<div class="footerClass">
+					<ul>
+                        <li><a href="index.html">Naslovna</a></li>
+						<li><a href="filmovi.html">Filmovi</a></li>
+						<li><a href="galerija.html">Galerija</a></li>
+                        <li><a href="autor.html">Autor</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="dokumentacija.pdf">DOKUMENTACIJA</a></li>
+					</ul>
+				</div>
+				<div class="footerClass">
+						<ul>
+							<li><h3>Pratite nas!</h3></li>
+							<li><a href="http://www.facebook.com">Facebook</a></li>
+							<li><a href="http://www.instagram">Instagram</a></li>
+							<li><a href="http://www.youtube.com">Youtube</a></li>
+						</ul>
+				</div>
+				
+				<div class="cleaner"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scriptMeni.js"></script>
+	<script type="text/javascript" src="js/scriptKontakt.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+</body>
+</html>

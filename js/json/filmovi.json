@@ -1,0 +1,294 @@
+[
+    {
+        "naziv": "Automobili 1",
+        "reditelj": "John Lasseter",
+        "zanr": [
+                    "Animirani",
+                    "Komedija",
+                    "Porodicni"
+                ],
+        "uloge": [
+                    "Owen Wilson",
+                    "Paul Newman",
+                    "Bonnie Hunt"
+                ],
+        "slika" : "slike/cars1.jpg",
+        "opis":"Vrhunski mladi trkač Munja Mekvin vozi svoje prvo finale Piston kupa, prestižnog Severnoameričkog trkačkog turnira i na kraju stiže u stoti deo sekunde izjednačen sa već iskusnim vozačima Kraljem i Čik Hiksom. Sudije donose odluku da ponovno finale u u Kaliforniji voze samo njih trojica. Na putu do Kalifornije Munja Mekvin zaluta na putu 66 i upadne u zabačeni gradić Radijator Springs gde će upoznati nove prijatelje Vukšu (Mejtera), Seli, Doka, Filmora, Gvida i Luiđija, Sardža, Ramona i Flo, koji na kraju postaju njegov pit-stop tim za Piston kup.",
+        "tip":"aktuelno",
+        "imdb":"7.1",
+        "trajanje":"116"
+    },
+    {
+        "naziv": "Automobili 3",
+        "reditelj": "John Lasseter",
+        "zanr": [
+                    "Animirani",
+                    "Komedija",
+                    "Porodicni"
+                ],
+        "uloge": [
+                    "Owen Wilson",
+                    "Paul Newman",
+                    "Bonnie Hunt"
+                ],
+        "slika" : "slike/3.jpg",
+        "opis":"U ovom filmu Munja Mekvin iznenada će biti izguran iz sporta koji voli. Da bi se vratio u igru, biće mu potrebna pomoć ambiciozne mlade mehaničarke, Kruz Ramirez, koja ima sopstvene planove za pobedu, plus inspiracija pokojnog fantastičnog Hadson Horneta i još par neočekivanih obrta. Dokazujući da broj 95 još uvek nije gotov, proveriće srce šampiona na najvećoj pozornici Piston kupa.",
+        "tip":"uskoro",
+        "imdb":"6.8",
+        "trajanje":"102"
+        
+    },
+    {
+        "naziv": "Isčezla",
+        "reditelj": "David Fincher",
+        "zanr": [
+                    "Krimi",
+                    "Drama",
+                    "Misterija"
+                ],
+        "uloge": [
+                    "Ben Affleck",
+                    "Rosamund Pike",
+                    "Neil Patrick Harris"
+                ],
+        "slika" : "slike/gonegirl.jpg",
+        "opis":"Bračni par njujorških pisaca, Ejmi (Rozamund Pajk) i Nik (Ben Aflek) primoran je da se preseli u mali grad u Misuriju zbog finansijske krize i bolesti Nikove majke. Od harmoničnog i srećnog para koji su nekada bili, postaju nesrećni i otuđeni. Na dan njihove petogodišnjice, Nik se vraća kući i zatiče prevrnut sto i nered u dnevnoj sobi koji ukazuje na znake borbe. Iznenada shvata da je njegova žena nestala i obaveštava policiju. Međutim, ubrzo postaje glavni osumnjičeni za Ejmin nestanak, a njegove laži, prevare i čudno ponašanje navode sve da postave isto mračno pitanje – da li ju je on ubio?",
+        "tip":"aktuelno",
+        "imdb":"8.1",
+        "trajanje":"149"
+    },
+    {
+        "naziv": "Početak",
+        "reditelj": "Christopher Nolan",
+        "zanr": [
+                    "Akcija",
+                    "Avantura",
+                    "Naucna-fantastika"
+                ],
+        "uloge": [
+                    "Leonardo DiCaprio",
+                    "Joseph Gordon-Levitt",
+                    "Ellen Page",
+                    "Tom Hardy"
+                ],
+        "slika" : "slike/inception.jpg",
+        "opis":"Film govori o pljačkašu zvanom Dom Kob (Dom Cobb) koji ulazi u snove drugih ljudi kako bi prikupio informacije koje su inače nedostupne. Njegove sposobnosti koštale su ga njegove porodice i državljanstva, ali prilika za iskupljenje i povratak starom životu javlja se kada Kob i njegov tim specijalista biva upošljen da usadi određenu ideju u podsvest njihove mete. Naziv filma odnosi se na zadatak usađivanja ideje umesto krađe iste — koncept s kojim je Kob manje upoznat.",
+        "tip":"aktuelno",
+        "imdb":"8.8",
+        "trajanje":"148"
+    },
+    {
+        "naziv": "Astralna podmuklost 2",
+        "reditelj": "James Wan",
+        "zanr": [
+                    "Horor",
+                    "Misterija",
+                    "Triler"
+                ],
+        "uloge": [
+                    "Patrick Wilson",
+                    "Rose Byrne",
+                    "Ty Simpkins"
+                ],
+        "slika" : "slike/insidious.jpg",
+        "opis":"Iako je spasio sina iz svijeta zlih sila, Josh Lambert se ponovo mora suočiti s najgorim duhovima iz prošlosti. Kada ih zlo ponovo krene terorizirati vremena za spas je sve manje. Ovoga puta teroriziranje je obavijeno velom tajne koju porodica mora otkriti ako želi ostati živa, a teror podmuklih duhova time postaje sve veći.",
+        "tip":"uskoro",
+        "imdb":"6.8",
+        "trajanje":"104"
+    },
+    {
+        "naziv": "Džumandži",
+        "reditelj": "Jake Kasdan",
+        "zanr": [
+                    "Akcija",
+                    "Avantura",
+                    "Komedija"
+                ],
+        "uloge": [
+                    "Dwayne Johnson",
+                    "Kevin Hart",
+                    "Jack Black"
+                ],
+        "slika" : "slike/jumanji.jpg",
+        "opis":"Kada četvoro srednjoškolaca otkrije staru video igricu za koju do tada nisu čuli, koja će ih uvući u zabavan svet džungle i zbog koje će postati avatari prema sopstvenom izboru.Spenser će postati štreberski istraživač, sportista Fridž će postati pravi Ajnštajn, popularna devojka Betani će postati sredovečni profesor, a krhka Marta će se pretvoriti u neustrašivog ratnika.",
+        "tip":"uskoro",
+        "imdb":"7.2",
+        "trajanje":"119"
+    },
+    {
+        "naziv": "Lavirnit",
+        "reditelj": "Wes Ball",
+        "zanr": [
+                    "Akcija",
+                    "Misterija",
+                    "Naucna-fantastika"
+                ],
+        "uloge": [
+                    "Dylan O'Brien",
+                    "Aml Ameen",
+                    "Ki Hong Lee"
+                ],
+        "slika" : "slike/mazerunner.jpg",
+        "opis":" Film govori o šesnaestogodišnjem mladiću Thomasu, koji je zapeo u zahrđalom dizalu bez ikakvog sjećanja tko je i što radi ovdje. Na kraju ga dizalo dovede u sredinu livade koja je omeđena šumom, koja je okružena zidovima labirinta. Na livadi se nalaze nastambe u kojima obitavaju drugi dječaci različitih dobi. Ti dječaci rade različite poslove, od kojih je najvažniji posao rade trkači. Oni trče po labirintu i pokušavaju pronaći izlaz iz njega.",
+        "tip":"aktuelno",
+        "imdb":"6.8",
+        "trajanje":"113"
+    },
+    {
+        "naziv": "Lavirnit 2",
+        "reditelj": "Wes Ball",
+        "zanr": [
+                    "Akcija",
+                    "Misterija",
+                    "Naucna-fantastika"
+                ],
+        "uloge": [
+                    "Dylan O'Brien",
+                    "Aml Ameen",
+                    "Ki Hong Lee"
+                ],
+        "slika" : "slike/mazerunner2.jpg",
+        "opis":"Nakon bijega iz Labirinta, skupina je suočena s novim izazovima na otvorenim cestama opustošenog krajolika, ispunjenih nezamislivim preprekama.",
+        "tip":"uskoro",
+        "imdb":"6.3",
+        "trajanje":"131"
+    },
+    {
+        "naziv": "Velika iluzija 2",
+        "reditelj": "Jon M. Chu",
+        "zanr": [
+                    "Akcija",
+                    "Avantura",
+                    "Komedija"
+                ],
+        "uloge": [
+                    "Jesse Eisenberg",
+                    "Mark Ruffalo",
+                    "Woody Harrelson",
+                    "Dave Franco",
+                    "Daniel Radcliffe"
+                ],
+        "slika" : "slike/nowuseeme.jpg",
+        "opis":"Godinu dana nakon što su nadmudrili FBI i dodvorili se javnosti svojim Robin Hood stilom, iluzionisti se pripremaju za veliki povratak na scenu. Vraćaju se kako bi razotkrili neetičku praksu tehnološkog magnata koji ih je primorao na pljačku. Njihova jedina nada je da izvedu još jedan spektakularan trik kojim će otkriti ko stoji iza cele priče.",
+        "tip":"aktuelno",
+        "imdb":"6.5",
+        "trajanje":"129"
+    },
+    {
+        "naziv": "Projekat x",
+        "reditelj": "Nima Nourizadeh",
+        "zanr": [
+                    
+                    "Komedija",
+                    "Drama"
+                ],
+        "uloge": [
+                    "Thomas Mann",
+                    "Oliver Cooper",
+                    "Jonathan Daniel Brown",
+                    "Dax Flame"
+                ],
+        "slika" : "slike/projectx.jpg",
+        "opis":"Tri srednjoškolca prirede rođendansku zabavu, cilj je prirediti malu zabavu sa nekoliko prijatelja kako bi podigli svoj društveni status. Ali kada slavljenikov najbolji prijatelj Costa pozove radijske stanice i postavi oglase na Craigslist, zabava u veoma kratkom roku izmakne kontroli.",
+        "tip": "aktuelno",
+        "imdb":"6.7",
+        "trajanje":"88"
+    },
+    {
+        "naziv": "Slagalica strave 3D",
+        "reditelj": "Kevin Greutert",
+        "zanr": [
+                    "Horor",
+                    "Misterija"
+                ],
+        "uloge": [
+                    "Tobin Bell",
+                    "Costas Mandylor",
+                    "Betsy Russell"
+                ],
+        "slika" : "slike/saw.jpg",
+        "opis":"Dok se vodi smrtonosna borba oko Jigsawovog brutalnog zaveštenja, grupa preživelih se okuplja i traži podršku od stručnjaka za samopomoć i još jednog preživelog, Bobbyja Dagena (Sean Patrick Flanery), čoveka čije će mračne tajne pokrenuti novi talas terora.",
+        "tip":"uskoro",
+        "imdb":"5.6",
+        "trajanje":"90"
+    },
+    {
+        "naziv": "Shal",
+        "reditelj": "Kevin Greutert",
+        "zanr": [
+                    "Akcija",
+                    "Avantura",
+                    "Drama"
+                ],
+        "uloge": [
+                    "Ondas Besikbasov",
+                    "Erbolat Toguzakov"
+                ],
+        "slika" : "slike/shal.jpg",
+        "opis":"Kazahstanska akcijska avanturisticka drama reditelja i scenariste Ermeka Tursunova o starcu koji zapne u Kazahstanskim stepama pa se mora suociti sa coporom vukova koji ga slede.",
+        "tip":"aktuelno",
+        "imdb":"7.3",
+        "trajanje":"102"
+    },
+    {
+        "naziv": "Zvezdani ratovi: poslednji dzedaj",
+        "reditelj": "Rian Johnson",
+        "zanr": [
+                    "Akcija",
+                    "Avantura",
+                    "Fantazija"
+                ],
+        "uloge": [
+                    "Mark Hamill",
+                    "Carrie Fisher",
+                    "Adam Driver",
+                    "Daisy Ridley"
+                ],
+        "slika" : "slike/starwars.jpg",
+        "opis":"Mlada Rey uz pomoć Lukea Skywalkera počinje razvijati svoje nedavno otkrivene moći. No, Luke je u strahu od njenog neizmjernog potencijala koji bi se veoma lako mogao iskoristiti u pogrešne svrhe. S druge strane, pripadnici Pobunjenika, među kojima su Leia, Finn i Poe, pokušavaju se pripremiti za svoju novu bitku protiv novog neprijatelja – pripadnika režima The First Order.",
+        "tip":"uskoro",
+        "imdb":"7.5",
+        "trajanje":"152"
+    },
+    {
+        "naziv": "Vuk sa Vol Strita",
+        "reditelj": "Martin Scorsese",
+        "zanr": [
+                    "Biografija",
+                    "Drama",
+                    "Komedija"
+                ],
+        "uloge": [
+                    "Leonardo DiCaprio",
+                    "Jonah Hill",
+                    "Margot Robbie",
+                    "Matthew McConaugheyy"
+                ],
+        "slika" : "slike/wolf.jpg",
+        "opis":"Film The Wolf of Wall Street je baziran na istinitoj priči o Jordan Belfortu, od njegovog uspona kao bogatog dioničara koji je živio na visokoj nozi do pada koji uključuje kriminal, korupciju i federalnu vlast.",
+        "tip":"aktuelno",
+        "imdb":"8.2",
+        "trajanje":"180"
+    },
+    {
+        "naziv": "Zodiac",
+        "reditelj": "David Fincher",
+        "zanr": [
+                    "Crimi",
+                    "Drama",
+                    "Istorijski"
+                ],
+        "uloge": [
+                    "Jake Gyllenhaal",
+                    "Mark Ruffalo",
+                    "Anthony Edwards",
+                    "Robert Downey Jr."
+                ],
+        "slika" : "slike/zodiac.jpg",
+        "opis":"Veza izmedju niza ubistava u severnoj Kaliforniji, tokom 60-ih i 70-ih su pisma, koja je, kako izgleda, ubica poslao dnevnim listovima San Francisca, tražeći da budu objavljena ili ce ponovno nekoga ubiti. Pisma su popračena brojkama – šifriranim porukama – za koje ubica kaže da sadrže pokazatelje njegovog identiteta. Robert Graysmith, karikaturist u jednom od listova – San Francisco Chronicle -,a takodje i amaterski kriptolog, postaje fasciniran ,ustvari opsednut, rešavanjem slucaja.",
+        "tip":"aktuelno",
+        "imdb":"7.7",
+        "trajanje":"157"
+    }
+
+]
